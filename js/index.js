@@ -23,3 +23,4 @@ document.getElementById("my-modal").addEventListener('click', event => {
     if (event._isClickWithInModal) return;
     event.currentTarget.classList.remove('open');
 });
+console.log("111");
