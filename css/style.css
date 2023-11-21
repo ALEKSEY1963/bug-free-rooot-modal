@@ -38,7 +38,7 @@ body {
   overflow-y: auto;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.5s, visibility 0.5s;
+  transition: opacity 0.4s, visibility 0.4s;
 }
 .modal__box {
   position: relative;
@@ -46,8 +46,8 @@ body {
   padding: 25px;
   z-index: 1;
   margin: 30px 15px;
-  background-color: aliceblue;
-  box-shadow: 1px -3px 35px 6px rgba(150, 145, 56, 0.4);
+  background-color: rgb(229, 231, 233);
+  box-shadow: 1px -3px 35px 6px rgba(133, 128, 44, 0.4);
   transform: scale(0);
   transition: transform 0.9s;
 }
@@ -71,7 +71,7 @@ body {
     fill: rgb(238, 255, 0);
   }
   .model__close-btn:focus svg path {
-    fill: rgb(244, 7, 150);
+    fill: rgb(228, 10, 140);
   }
 
 .modal.open {
