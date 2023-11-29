@@ -28,21 +28,37 @@
   </head>
   <body>
     <div class="container">
-        <h1>Модальное окно</h1>
-        <button id = 'open-modal-btn'>Открыть модальное окно</button>
+      <h1>Модальное окно</h1>
+      <button class="btn" id="open-modal-btn">Открыть</button>
     </div>
     <div class="modal" id="my-modal">
+      <div class="modal__box">
+        <button class="model__close-btn" id="close-my-modal-btn">
+          <svg
+            width="23"
+            height="25"
+            viewBox="0 0 23 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+              fill="#333333"
+            />
+            <path
+              d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z"
+              fill="#333333"
+            />
+          </svg>
+        </button>
+        <h2>Мое мокрое детство</h2>
 
-        <div class="modal__box">
-          <button class="model__close-btn" id="close-my-modal-btn"><svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z" fill="#333333"/>
-            <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333"/>
-            </svg>
-            </button>
-            <h2> Мое модальное окно</h2>
-            <p>Lorem ipsum dolor sit amet consf yy ddfectввetur, adipisicing elit. Obcaecati itaque aliquid placeat voluptates voibus. Rem quo enim ad pddrovident unde!</p>
-            <p>Lorem ipsum do lor sit amet consec ggg tetur adipcing elit. Iusto voluptes ipsum autem accusantium nulla soluta aut? Ipsum flis unde neque ipsa iure error, expedita repudiandae veniam ad in cupiditate tempore, dolor rerum natus reprehenderit voluptatem, soluta doloribus obcaecati! Tenetur laudantium debitis vitae impedit temporibus, tempora quaerat delectus quibusdam. Laborum, odio tempora corporis repellendus vel sapiente, dolorem amet debitis reprehenderit voluptate quasi dolor soluta ipsum rem quibusdam dicta rerum! Reiciendis, earum omnis! Inventore odit magni beatae incidunt reprehenderit, magnam obcaecati id voluptate optio, eum rerum dolorum? Doloribus perspiciatis, eius praesentium facilis quidem repudiandae deleniti sunt quia ullam nam dicta corrupti similique!</p>
-        </div>
+        <img src="img/popul.jpg" alt="Мое мокрое детство" />
+
+        <p>
+          Рыбалка
+        </p>
+      </div>
     </div>
     <script defer src="js/main.js"></script>
   </body>
