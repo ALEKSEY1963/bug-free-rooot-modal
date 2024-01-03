@@ -48,7 +48,7 @@ body {
 }
 .modal__box {
   position: relative;
-  max-width: 480px;
+  max-width: 330px;
   padding: 10px;
   z-index: 1;
   margin: 10px;
